@@ -1,0 +1,13 @@
+# Segredos e documentos sensíveis
+.env
+corpus/
+gabarito/
+avaliacao/
+logs/
+
+# Ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/

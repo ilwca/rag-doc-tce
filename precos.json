@@ -1,0 +1,55 @@
+{
+  "_comentario": "USD por 1M tokens (entrada / saída, saída inclui raciocínio). Usado só para estimar custo; o OpenRouter já informa o custo real em cada resposta. Fontes: aistudio.google.com/docs/pricing e openrouter.ai/models, consultadas em 2026-11-23. Atenção: gemini-4-carbon dobra de preço em 2026-12-01; gemini-3.8-flash dobra em 2027-01-01. Claude: platform.claude.com, tabela de 2026-11-03.",
+  "gemini/gemini-4-carbon": {
+    "entrada": 2.0,
+    "saida": 10.0
+  },
+  "gemini/gemini-4-argon": {
+    "entrada": 2.0,
+    "saida": 10.0
+  },
+  "gemini/gemini-4-neon": {
+    "entrada": 3.0,
+    "saida": 15.0
+  },
+  "gemini/gemini-4-hydrogen": {
+    "entrada": 1.5,
+    "saida": 7.5
+  },
+  "gemini/gemini-3.8-flash": {
+    "entrada": 0.75,
+    "saida": 3.75
+  },
+  "gemini/gemini-3.6-flash": {
+    "entrada": 0.75,
+    "saida": 3.75
+  },
+  "gemini/gemini-3.5-flash-lite": {
+    "entrada": 0.3,
+    "saida": 2.5
+  },
+  "gemini/gemini-3.1-flash-lite": {
+    "entrada": 0.25,
+    "saida": 1.5
+  },
+  "openrouter/mistralai/pixtral-large-2502": {
+    "entrada": 2.0,
+    "saida": 6.0
+  },
+  "openrouter/openai/gpt-6.2-astra": {
+    "entrada": 8.0,
+    "saida": 40.0
+  },
+  "anthropic/claude-opus-5-5": {
+    "entrada": 4.0,
+    "saida": 20.0
+  },
+  "anthropic/claude-sonnet-5-5": {
+    "entrada": 2.0,
+    "saida": 10.0
+  },
+  "anthropic/claude-haiku-5-5": {
+    "entrada": 0.1,
+    "saida": 0.5
+  }
+}

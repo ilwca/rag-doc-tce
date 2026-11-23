@@ -1,0 +1,26 @@
+[project]
+name = "rag-tce"
+version = "0.1.0"
+description = "RAG sobre documentos PDF (certificados e tabelas) — fase 1: extração"
+requires-python = ">=3.11"
+dependencies = [
+  "google-genai",
+  "openai",
+  "pymupdf",
+  "pydantic>=2",
+  "pydantic-settings",
+  "typer",
+  "tenacity",
+  "anthropic>=2.13.0",
+]
+
+[dependency-groups]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+markers = ["api: chama uma API real (pago); rode com -m api"]
+addopts = "-m 'not api'"
+testpaths = ["tests"]
+
+[tool.uv]
+package = false
